@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock|Press+Start+2P');
+
+body {
+    background-color: white;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 0px; 
+    top:0;
+    left:0;
+}
+.jumbotron {
+   	border-radius: 15px 50px;
+    width:100%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 200px;
+    color:black;
+    text-shadow: white 0.3em 0.3em 0.3em;
+    background: transparent;
+    background-image: url('https://wallpaperscraft.com/image/leaves_tree_branches_maple_green_light_15172_3840x2160.jpg');
+    background-size:cover;
+
+}
+
+.styled-select {
+	text-align: center;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+.select {
+	text-align: center;
+
+}
+
+.bottomtron {
+  background-color: white;
+  height: 55px;  
+  padding-top: 10px;
+  position: bottom; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  border-top: ridge;
+  text-align: center;
+  font-size:15px;
+  vertical-align: text-bottom;
+}

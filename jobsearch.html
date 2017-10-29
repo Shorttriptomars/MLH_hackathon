@@ -1,0 +1,45 @@
+<script href="C:\Users\Shayna\Desktop\jobsearch.js"></script> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<link rel="stylesheet" type="text/css" href="C:\Users\Shayna\Desktop\jobsearch.css">
+<html>
+	<head>
+	<title> Job Search </title>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h1 style=" bottom: 50px; width:100%; text-align: left; font-size: 65px; font-family: 'Overlock', cursive; "> New Leaf </h1>
+		</div>
+		<h1 style="font-family: sans-serif;text-align: center;"><u> Job Search</u> </h1>
+
+	<div class ="select" onclick = "checkvalue(value); document.write('boo')">	Type of job: <select name="Job" onchange='checkvalue(this.value)''>
+			<option value= "Accounting">Accounting</option>
+			<option value= "Architecture">Architecture</option>
+			<option value= "Business">Business</option>
+			<option value= "Computer Science">Computer Science</option>
+			<option value= "Construction">Construction</option>
+			<option value= "Entertainment">Entertainment</option>
+			<option value= "Food Services">Food Services</option>
+			<option value= "Healthcare">Healthcare</option>
+			<option value= "Legal">Legal</option>
+			<option value= "Maintenance">Maintenance</option>
+			<option value= "Sales">Sales</option>
+			<option value= "Teaching">Teaching</option>
+			<option value= "Other">Other</option>
+		</select><br><br>
+			<script> checkvalue(value);
+			document.write("hello world"); </script>
+			<input type="text" name="job" id="job" style="display:none"/>
+		<br>
+		Zip code: <input type="number" name="zip" ><br><br>
+		<button> submit </button>
+	</div>
+		
+		
+
+
+		<div class ="bottomtron">
+<!-- Sign and date the page, it's only polite! -->
+      <address >Made 29 October 2017<br>by Spilled Coffee</address>
+    </div>
+	</body>
+</html>
